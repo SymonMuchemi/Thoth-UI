@@ -1,8 +1,9 @@
 import "./inputSide.css";
 
 function InputSide() {
+  
   return (
-    <div className="container">
+    <form className="container">
       <h2>Paste code here:</h2>
       <textarea />
       <h2>Check for:</h2>
@@ -17,10 +18,12 @@ function InputSide() {
         </label>
       </div>
       <div className="buttons">
-        <button id="review">Get Code Review</button>
+        <button id="review" type="submit">
+          Get Code Review
+        </button>
         <button id="github">Get Code from GitHub</button>
       </div>
-    </div>
+    </form>
   );
 }
 

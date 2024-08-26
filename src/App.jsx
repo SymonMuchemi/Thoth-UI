@@ -6,14 +6,16 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="main">
+    <>
       <Header />
-      <div className="sides">
-        <InputSide />
-        <ReviewSide />
+      <div className="main">
+        <div className="sides">
+          <InputSide />
+          <ReviewSide />
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

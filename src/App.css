@@ -8,6 +8,6 @@
 .main .sides {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 0 5%;
 }
